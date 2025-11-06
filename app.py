@@ -12,7 +12,7 @@
 # genai.configure(api_key=st.secrets["GEMINI_API_KEY"])  # or use os.environ["GEMINI_API_KEY"]
 
 # # The secret word
-# SECRET_WORD = "Magnet"
+# SECRET_WORD = ""
 
 # # ----------------------------
 # # FUNCTION TO DETECT "INNOVATION"
@@ -88,7 +88,7 @@
 # genai.configure(api_key=api_key)
 
 # # --- SECRET WORD ---
-# SECRET_WORD = "Magnet"
+# SECRET_WORD = ""
 
 # # --- SMART PROMPT LOGIC ---
 # def generate_haiku(user_input: str):
@@ -151,7 +151,7 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 # --- SECRET WORD ---
-SECRET_WORD = "CARPET"  # Secret word
+SECRET_WORD = ""  # Secret word
 
 # --- SESSION STATE INITIALIZATION ---
 if "attempts" not in st.session_state:
